@@ -1,5 +1,5 @@
 'use client'
-//  @typescript-eslint/no-explicit-any
+ // eslint-disable-next-line @typescript-eslint/no-explicit-any
 import Button from '@/components/Button'
 import React, { useEffect } from 'react'
 import rightArrow from '@/assets/rightArrow.svg'
@@ -43,7 +43,7 @@ const Hero = () => {
         { name: "Habitat", image: logo4 },
         { name: "Who", image: logo5 },
     ];
-
+ // eslint-disable-next-line @typescript-eslint/no-explicit-any
   return (
     <section id='home' className='mt-16 pt-40 pb-24 overflow-hidden'>
         <div className='container relative'>
