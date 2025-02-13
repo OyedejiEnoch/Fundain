@@ -1,10 +1,10 @@
 import React from 'react'
 import imageArrow from '@/assets/imageArrrow.svg'
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 import { twMerge } from 'tailwind-merge'
 
 type Props ={
-    imageShow:string,
+    imageShow:StaticImageData,
     className:string,
 }
 

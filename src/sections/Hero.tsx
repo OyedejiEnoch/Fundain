@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 'use client'
 import Button from '@/components/Button'
 import React, { useEffect } from 'react'
@@ -125,7 +124,7 @@ const Hero = () => {
             }}
             drag
             className='absolute -top-16 md:-top-10 left-2 md:-left-2'>
-                <ImageArrow imageShow={image3 as any} className='top-5 right-5 rotate-[180deg]'   />
+                <ImageArrow imageShow={image3} className='top-5 right-5 rotate-[180deg]'   />
             </motion.div>
 
             <motion.div 
@@ -141,7 +140,7 @@ const Hero = () => {
             }}
             drag
             className=' absolute -top-20 -right-0 md:-right-12 md:-top-14'>
-                <ImageArrow imageShow={image1 as any} className='-left-10 top-10 -rotate-45'   />
+                <ImageArrow imageShow={image1} className='-left-10 top-10 -rotate-45'   />
             </motion.div>
 
             <motion.div 
@@ -157,7 +156,7 @@ const Hero = () => {
             }}
             drag
             className='hidden md:flex absolute left-20 md:bottom-10'>
-                <ImageArrow imageShow={image4 as any} className='-top-2 right-5 rotate-[140deg]'   />
+                <ImageArrow imageShow={image4} className='-top-2 right-5 rotate-[140deg]'   />
             </motion.div>
 
             <motion.div 
@@ -173,7 +172,7 @@ const Hero = () => {
             }}
             drag
             className='hidden md:flex absolute right-4 bottom-10'>
-                <ImageArrow imageShow={image2 as any} className='top-1 -left-10'   />
+                <ImageArrow imageShow={image2} className='top-1 -left-10'   />
             </motion.div>
            
         </div>
