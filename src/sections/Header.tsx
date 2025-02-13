@@ -42,6 +42,8 @@ const Header = () => {
 
     const [isOpen, setIsOpen]=useState(false)
 
+
+    //  @typescript-eslint/no-explicit-any
     const handleNavClick =(e:any)=>{
         e.preventDefault();
         // setIsOpen(false)

@@ -36,8 +36,8 @@ const Footer = () => {
 
                     <div className='flex flex-col gap-6 mt-8'>
 
-                    {link.links.map((item)=>(
-                        <span className='text-white/50 text-sm'>{item}</span>
+                    {link.links.map((item, i)=>(
+                        <span key={i} className='text-white/50 text-sm'>{item}</span>
                     ))}
                     </div>
                     
