@@ -1,5 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 'use client'
- // eslint-disable-next-line @typescript-eslint/no-explicit-any
 import Button from '@/components/Button'
 import React, { useEffect } from 'react'
 import rightArrow from '@/assets/rightArrow.svg'
