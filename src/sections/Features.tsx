@@ -71,7 +71,7 @@ const Features = () => {
                 transition={{
                   delay:0.8,
               }}
-                ref={titleScope} className='text-white/50 max-md:text-sm mt-4'>Start your fundraising journey with ease—create your campaign, share with supporters, track progress,
+                ref={titleScope} className='text-[#8A8A8A] max-md:text-sm mt-4'>Start your fundraising journey with ease—create your campaign, share with supporters, track progress,
                 and make a real impact. It&apos;s simple, fast, and effective!</motion.p>
                 
                 <motion.div 
@@ -132,8 +132,8 @@ const Features = () => {
             }}
             >
                 <Image src={featureIcon1} alt='' width={30} />
-                <h2 className='text-lg md:text-xl mt-4'>Create a Campaign</h2>
-                <p className='max-md:text-sm mt-4 text-white/50'>Set up your fundraising goal and deadline in just a few clicks.
+                <h2 className='text-lg md:text-xl mt-4 text-white'>Create a Campaign</h2>
+                <p className='max-md:text-sm mt-4 text-[#8A8A8A]'>Set up your fundraising goal and deadline in just a few clicks.
                 </p>
             </motion.div>
 
@@ -153,8 +153,8 @@ const Features = () => {
                 }}
             >
                 <Image src={featureIcon2} alt='' width={30} />
-                <h2 className='text-lg md:text-xl mt-4'>Customize Campaign</h2>
-                <p className='max-md:text-sm mt-4 text-white/50'>Tell your story, add visuals, and share your campaign with the world.
+                <h2 className='text-lg md:text-xl mt-4 text-white'>Customize Campaign</h2>
+                <p className='max-md:text-sm mt-4 text-[#8A8A8A]'>Tell your story, add visuals, and share your campaign with the world.
                 </p>
             </motion.div>
             
@@ -174,8 +174,8 @@ const Features = () => {
                 }}
             >
                 <Image src={featureIcon4} alt='' width={30} />
-                <h2 className='text-lg md:text-xl mt-4'>Collect Contributions</h2>
-                <p className='max-md:text-sm mt-4 text-white/50'>Receive donations directly to your account using blockchain technology.
+                <h2 className='text-lg md:text-xl mt-4 text-white'>Collect Contributions</h2>
+                <p className='max-md:text-sm mt-4 text-[#8A8A8A]'>Receive donations directly to your account using blockchain technology.
                 </p>
             </motion.div>
 
@@ -195,8 +195,8 @@ const Features = () => {
                 }}
             >
                 <Image src={featureIcon4} alt='' width={30} />
-                <h2 className='text-lg md:text-xl mt-4'>Receive Payouts</h2>
-                <p className='max-md:text-sm mt-4 text-white/50'>Funds are released securely and transparently via smart contracts.
+                <h2 className='text-lg md:text-xl mt-4 text-white'>Receive Payouts</h2>
+                <p className='max-md:text-sm mt-4 text-[#8A8A8A]'>Funds are released securely and transparently via smart contracts.
                 </p>
             </motion.div>
         </div>

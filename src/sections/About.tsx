@@ -71,7 +71,7 @@ const About = () => {
         }}
 
         className='text-center text-4xl md:text-6xl font-semibold bg-gradient-to-r from-[#FFFFFF] via-[#A7A7A7] to-[#444444] bg-clip-text text-transparent'>Why Trust Our Platform?</motion.h2>
-        <p ref={titleScope} className='text-white/30 max-md:text-sm text-center mt-10 max-w-[550px] mx-auto'>We make fundraising simple, secure, and transparent—giving you the trust and tools you need to succeed.</p>
+        <p ref={titleScope} className='text-[#8A8A8A] max-md:text-sm text-center mt-10 max-w-[550px] mx-auto'>We make fundraising simple, secure, and transparent—giving you the trust and tools you need to succeed.</p>
       
 
         <div className='grid grid-cols-1 md:grid-cols-2 mt-10 '>
@@ -90,8 +90,8 @@ const About = () => {
             className='col-span-12 border border-white/40 rounded-xl pt-12 '>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
                     <div className='px-4 md:px-10'>
-                        <h2 className='text-3xl'>Transparent Fundraising</h2>
-                        <p className='text-white/30 text-sm mt-6'>Every transaction is recorded on the blockchain, making your campaign completely transparent and trustworthy.</p>
+                        <h2 className='text-3xl text-white'>Transparent Fundraising</h2>
+                        <p className='text-[#8A8A8A] text-sm mt-6'>Every transaction is recorded on the blockchain, making your campaign completely transparent and trustworthy.</p>
                         
                         <div className='mt-10'>
                         <Button variant='primary'>Explore All</Button>
@@ -119,8 +119,8 @@ const About = () => {
                     ease:'easeIn'
                 }}
                 className='border border-white/40 rounded-xl pt-10 mt-10'>
-                    <h2 className='text-center text-xl font-semibold'>Smart Contracts Automation</h2>
-                    <p className='text-center mt-4 text-sm text-white/30 max-w-[400px] mx-auto'>Smart contracts automate payouts, ensuring secure and fair fund handling.</p>
+                    <h2 className='text-center text-xl font-semibold text-white'>Smart Contracts Automation</h2>
+                    <p className='text-center mt-4 text-sm text-[#8A8A8A] max-w-[400px] mx-auto'>Smart contracts automate payouts, ensuring secure and fair fund handling.</p>
                     
                     <div className='mt-10'>
                     <Image src={aboutImg2} alt='image' />
@@ -140,8 +140,8 @@ const About = () => {
                     ease:'easeIn'
                 }}
                 className='border border-white/40 rounded-xl pt-10 mt-10'>
-                    <h2 className='text-center text-xl font-semibold'>Global Access</h2>
-                    <p className='text-center mt-4 text-sm text-white/30 max-w-[400px] mx-auto'>Raise funds from anyone, anywhere in the world. No borders. No restrictions.</p>
+                    <h2 className='text-center text-xl font-semibold text-white'>Global Access</h2>
+                    <p className='text-center mt-4 text-sm text-[#8A8A8A] max-w-[400px] mx-auto'>Raise funds from anyone, anywhere in the world. No borders. No restrictions.</p>
                     
                     <div className='mt-10'>
                     <Image src={aboutImg3} alt='image' />
@@ -204,7 +204,7 @@ const About = () => {
                     ease:'easeIn'
                 }}
                 className='text-3xl md:text-5xl font-semibold  bg-gradient-to-r from-[#FFFFFF] via-[#A7A7A7] to-[#444444] bg-clip-text text-transparent'>Building Better Lives Together.</motion.h2>
-                <p ref={sectonTitleScope} className='mt-6 text-sm text-white/30 '>Your support opens doors to health, education, food, and jobs. With blockchain, every donation is secure, transparent, and makes a lasting impact
+                <p ref={sectonTitleScope} className='mt-6 text-sm text-[#8A8A8A]'>Your support opens doors to health, education, food, and jobs. With blockchain, every donation is secure, transparent, and makes a lasting impact
                  where it&apos;s needed most.</p>
                  
                  <div className='mt-10'>

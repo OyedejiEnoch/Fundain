@@ -70,7 +70,7 @@ const Hero = () => {
                 delay:0.8,
                 ease:'easeIn'
             }}
-            ref={scope} className='text-center text-white/40 max-w-[600px] mx-auto mt-10     w-full'>Join the future of crowdfunding powered by blockchain. Start your campaign today and secure funding with trust, security, and ease.</motion.p>
+            ref={scope} className='text-center text-[#8A8A8A] max-w-[600px] mx-auto mt-10     w-full'>Join the future of crowdfunding powered by blockchain. Start your campaign today and secure funding with trust, security, and ease.</motion.p>
 
 
             <div className='flex flex-col md:flex-row justify-center items-center gap-6 mt-10'>

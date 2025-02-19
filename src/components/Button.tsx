@@ -9,7 +9,7 @@ type Prop ={
 
 const Button = ({variant, children, iconAfter}:Prop & ButtonHTMLAttributes<HTMLButtonElement>) => {
   return (
-    <button className={twMerge('rounded-full px-8 py-4 text-sm bg-[#BFEE5C] text-black font-semibold flex items-center gap-2',  variant === 'secondary' && 'bg-white text-black')}>
+    <button className={twMerge('rounded-full px-8 py-4 text-sm bg-[#C1ED00] text-black font-semibold flex items-center gap-2',  variant === 'secondary' && 'bg-white text-black')}>
       {children}
       <span>{iconAfter}</span>
     </button>

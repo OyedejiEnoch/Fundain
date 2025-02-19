@@ -74,7 +74,7 @@ const Header = () => {
             </nav>
 
 
-            <button className='hidden lg:flex border border-gray-500 rounded-full px-6 py-2 text-sm leading-7'>
+            <button className='hidden lg:flex border bg-[#040404] text-white border-white/30 rounded-full px-6 py-2 text-sm leading-7'>
                 Create Account
             </button>
 

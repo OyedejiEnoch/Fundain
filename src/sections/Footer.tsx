@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import fundainLogo from '@/assets/fundaneLogo.svg'
+import linkedin from '@/assets/LinkedIn.svg'
+import instagram from '@/assets/Instagram.svg'
+import twitterx from '@/assets/TwitterX.svg'
 
 const Footer = () => {
 
@@ -25,7 +28,13 @@ const Footer = () => {
         <div className='flex justify-between flex-wrap gap-10'>
             <div className='flex flex-col gap-6'>
                 <Image src={fundainLogo} alt='logo' className='w-[150px]' />
-                <p className='text-sm text-white/50 max-w-[400px]'>Join the future of crowdfunding powered by blockchain. Start your campaign today and secure funding with trust, security, and ease.</p>
+                <p className='text-[16px] text-[#8A8A8A] max-w-[350px]'>Join the future of crowdfunding powered by blockchain. Start your campaign today and secure funding with trust, security, and ease.</p>
+
+                <div className='flex items-center gap-4'>
+                    <Image src={linkedin} alt='linkedin-logo' width={30} height={30}/>
+                    <Image src={instagram} alt='instagram-logo' width={30} height={30}/>
+                    <Image src={twitterx} alt='twitterx-logo' width={30} height={30}/>
+                </div>
             </div>
 
 
@@ -37,7 +46,7 @@ const Footer = () => {
                     <div className='flex flex-col gap-6 mt-8'>
 
                     {link.links.map((item, i)=>(
-                        <span key={i} className='text-white/50 text-sm'>{item}</span>
+                        <span key={i} className='text-[#8A8A8A] text-sm'>{item}</span>
                     ))}
                     </div>
                     
