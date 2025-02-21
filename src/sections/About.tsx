@@ -70,7 +70,7 @@ const About = () => {
             ease:'easeIn'
         }}
 
-        className='text-center text-4xl md:text-6xl font-semibold bg-gradient-to-r from-[#FFFFFF] via-[#A7A7A7] to-[#444444] bg-clip-text text-transparent'>Why Trust Our Platform?</motion.h2>
+        className='text-center text-4xl md:text-6xl font-semibold bg-gradient-to-r from-[#797878] via-[#ffffff] to-[#aba9a9] bg-clip-text text-transparent '>Why Trust Our Platform?</motion.h2>
         <p ref={titleScope} className='text-[#8A8A8A] max-md:text-sm text-center mt-10 max-w-[550px] mx-auto'>We make fundraising simple, secure, and transparent—giving you the trust and tools you need to succeed.</p>
       
 
@@ -98,8 +98,8 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div>
-                        <Image src={aboutImg1} alt='image' className='rounded-2xl' />
+                    <div className='mt-6'>
+                        <Image src={aboutImg1} alt='image' className='rounded-lg' />
                     </div>
                 </div>
             </motion.div>
@@ -120,9 +120,9 @@ const About = () => {
                 }}
                 className='border border-white/40 rounded-xl pt-10 mt-10'>
                     <h2 className='text-center text-xl font-semibold text-white'>Smart Contracts Automation</h2>
-                    <p className='text-center mt-4 text-sm text-[#8A8A8A] max-w-[400px] mx-auto'>Smart contracts automate payouts, ensuring secure and fair fund handling.</p>
+                    <p className='text-center mt-4 text-sm text-[#8A8A8A] max-w-[300px] md:max-w-[400px] mx-auto'>Smart contracts automate payouts, ensuring secure and fair fund handling.</p>
                     
-                    <div className='mt-10'>
+                    <div className='mt-12'>
                     <Image src={aboutImg2} alt='image' />
                     </div>
                 </motion.div>
@@ -141,9 +141,9 @@ const About = () => {
                 }}
                 className='border border-white/40 rounded-xl pt-10 mt-10'>
                     <h2 className='text-center text-xl font-semibold text-white'>Global Access</h2>
-                    <p className='text-center mt-4 text-sm text-[#8A8A8A] max-w-[400px] mx-auto'>Raise funds from anyone, anywhere in the world. No borders. No restrictions.</p>
+                    <p className='text-center mt-4 text-sm text-[#8A8A8A] max-w-[300px] md:max-w-[400px] mx-auto'>Raise funds from anyone, anywhere in the world. No borders. No restrictions.</p>
                     
-                    <div className='mt-10'>
+                    <div className='mt-12'>
                     <Image src={aboutImg3} alt='image' />
                     </div>
                 </motion.div>
@@ -203,7 +203,7 @@ const About = () => {
                     duration:0.6,
                     ease:'easeIn'
                 }}
-                className='text-3xl md:text-5xl font-semibold  bg-gradient-to-r from-[#FFFFFF] via-[#A7A7A7] to-[#444444] bg-clip-text text-transparent'>Building Better Lives Together.</motion.h2>
+                className='text-3xl md:text-5xl font-semibold  bg-gradient-to-r from-[#797878] via-[#ffffff] to-[#aba9a9] bg-clip-text text-transparent '>Building Better Lives Together.</motion.h2>
                 <p ref={sectonTitleScope} className='mt-6 text-sm text-[#8A8A8A]'>Your support opens doors to health, education, food, and jobs. With blockchain, every donation is secure, transparent, and makes a lasting impact
                  where it&apos;s needed most.</p>
                  

@@ -60,7 +60,7 @@ const Features = () => {
                     duration:0.8,
                     ease:'easeIn'
                 }}
-                className='text-4xl md:text-5xl  bg-gradient-to-r from-[#FFFFFF] via-[#A7A7A7] to-[#e4e4e4] bg-clip-text text-transparent'>Fundraise in 4 Easy and Impactful Steps</motion.h2>
+                className='text-4xl md:text-5xl  bg-gradient-to-r from-[#797878] via-[#ffffff] to-[#aba9a9] bg-clip-text text-transparent '>Fundraise in 4 Easy and Impactful Steps</motion.h2>
                 <motion.p 
                   initial={{
                     opacity:0,

@@ -77,13 +77,15 @@ const Header = () => {
             <button className='hidden lg:flex border bg-[#040404] text-white border-white/30 rounded-full px-6 py-2 text-sm leading-7'>
                 Create Account
             </button>
-
+            
+            <div className='border border-white/30 rounded-2xl p-3'>
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" 
-                        className="feather feather-menu md:hidden text-white" onClick={()=>setIsOpen(!isOpen)}>
+                        className="feather feather-menu md:hidden text-white " onClick={()=>setIsOpen(!isOpen)}>
                 <line x1="3" y1="6" x2="21" y2="6"  className={(twMerge('origin-left  transition duration-200 text-white', isOpen && 'rotate-45 -translate-y-1'))}></line>
                 <line x1="3" y1="12" x2="21" y2="12" className={(twMerge(' transition duration-200 text-white',isOpen && 'opacity-0'))}></line>
                 <line x1="3" y1="18" x2="21" y2="18" className={(twMerge('origin-left  transition duration-200 text-white',isOpen && '-rotate-45 translate-y-1'))}></line>
             </svg>
+            </div>
         </div>
       </div>
       <AnimatePresence>
