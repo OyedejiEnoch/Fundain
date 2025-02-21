@@ -99,7 +99,7 @@ const About = () => {
                     </div>
 
                     <div>
-                        <Image src={aboutImg1} alt='image' className='' />
+                        <Image src={aboutImg1} alt='image' className='rounded-2xl' />
                     </div>
                 </div>
             </motion.div>
@@ -190,7 +190,7 @@ const About = () => {
             </div>
 
 
-            <div className='flex-1'>
+            <section id='donation' className='flex-1'>
                 <motion.h2
                   initial={{
                     opacity:0,
@@ -213,7 +213,7 @@ const About = () => {
                  </Button>
                  </div>
                     
-            </div>
+            </section>
 
          </div>
       

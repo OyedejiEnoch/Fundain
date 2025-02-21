@@ -57,7 +57,7 @@ const Hero = () => {
                 duration:1,
                 ease:'easeInOut'
             }}
-            className='text-center text-4xl md:text-5xl lg:text-6xl text-white'>Raise Funds, Build Dreams, With Complete Transparency</motion.h2>
+            className='text-center text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-[#797878] via-[#ffffff] to-[#aba9a9] bg-clip-text text-transparent '>Raise Funds, Build Dreams, With Complete Transparency</motion.h2>
 
             <motion.p 
             initial={{
@@ -70,7 +70,7 @@ const Hero = () => {
                 delay:0.8,
                 ease:'easeIn'
             }}
-            ref={scope} className='text-center text-[#8A8A8A] max-w-[600px] mx-auto mt-10     w-full'>Join the future of crowdfunding powered by blockchain. Start your campaign today and secure funding with trust, security, and ease.</motion.p>
+            ref={scope} className='text-center text-[#8A8A8A] max-w-[600px] mx-auto mt-10 w-full'>Join the future of crowdfunding powered by blockchain. Start your campaign today and secure funding with trust, security, and ease.</motion.p>
 
 
             <div className='flex flex-col md:flex-row justify-center items-center gap-6 mt-10'>
@@ -111,23 +111,7 @@ const Hero = () => {
                 </motion.div>
             </div>
 
-            <motion.div 
-            initial={{
-                opacity:0
-            }}
-            animate={{
-                opacity:1
-            }}
-            transition={{
-                delay:2,
-                ease:'easeIn'
-            }}
-            drag
-            className='absolute -top-16 md:-top-10 left-2 md:-left-2'>
-                <ImageArrow imageShow={image3} className='top-5 right-5 rotate-[180deg]'   />
-            </motion.div>
-
-            <motion.div 
+            <motion.div
               initial={{
                 opacity:0
             }}
@@ -138,9 +122,52 @@ const Hero = () => {
                 delay:2.3,
                 ease:'easeIn'
             }}
+            >
+
+            <motion.div 
+           animate={{
+            translateY:[-6, 6],
+        }}
+        transition={{ 
+            delay:2,
+            repeat:Infinity,
+            repeatType:"mirror",
+            duration:3,
+            ease:"easeInOut"
+        }}
             drag
-            className=' absolute -top-20 -right-0 md:-right-12 md:-top-14'>
+            className='absolute -top-20 md:-top-10 left-2 md:-left-2'>
+                <ImageArrow imageShow={image3} className='top-5 right-5 rotate-[180deg]'   />
+            </motion.div>
+            </motion.div>
+
+            <motion.div
+               initial={{
+                opacity:0
+            }}
+            animate={{
+                opacity:1
+            }}
+            transition={{
+                delay:2.3,
+                ease:'easeIn'
+            }}
+            >
+            <motion.div 
+           
+            animate={{
+                translateY:[-6, 6],
+            }}
+            transition={{ 
+                repeat:Infinity,
+                repeatType:"mirror",
+                duration:3,
+                ease:"easeInOut"
+            }}
+            drag
+            className=' absolute -top-20 -right-10 md:-right-12 md:-top-14'>
                 <ImageArrow imageShow={image1} className='-left-10 top-10 -rotate-45'   />
+            </motion.div>
             </motion.div>
 
             <motion.div 

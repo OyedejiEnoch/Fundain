@@ -1,24 +1,23 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
+// const inter = Inter({
+//   variable: "--font-inter",
+//   subsets: ["latin"],
+//   display: "swap",
+//   axes: ["opsz"],
+// });
+
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans", // Define a CSS variable
   subsets: ["latin"],
   display: "swap",
-  axes: ["opsz"],
+  weight: ["400", "500", "700"], // Include only the weights you need
 });
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
   title: "Fundain",
@@ -33,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} font-sans bg-[#040404] text-white antialiased`}
+        className={`${dmSans.variable} font-sans bg-[#040404] text-white antialiased`}
       >
         {children}
       </body>

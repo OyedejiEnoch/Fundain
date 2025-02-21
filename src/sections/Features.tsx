@@ -104,9 +104,20 @@ const Features = () => {
                 ease:'easeIn'
             }}
             className='border border-white/40 pt-10 pl-4 flex-1 rounded-xl'>
-                <div className='px-16'>
+                <motion.div className='px-16'
+                 animate={{
+                    translateY:[-10, 10],
+        
+                  }}
+                  transition={{
+                    repeat:Infinity,
+                    repeatType:"mirror",
+                    duration:1.5,
+                    ease:"easeInOut"
+                  }}
+                >
                 <Image src={featureImg1} alt='image' />
-                </div>
+                </motion.div>
 
                 <div className='mt-14 pl-10'>
                 <Image src={featureImg2} alt='image' />

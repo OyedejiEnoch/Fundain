@@ -58,7 +58,58 @@ const Faq = () => {
         </div>
 
         <div className='mt-10'>
-        <Carousel className="w-full">
+          {/* Mobile */}
+        <Carousel className='md:hidden w-full'>
+            <CarouselContent>
+              <CarouselItem>
+              <motion.div
+                initial={{
+                  opacity:0
+                }}
+                animate={{
+                  opacity:inView ? 1 :0
+                }}
+                transition={{ 
+                  delay:1.6,
+                  duration:0.8,
+                  ease:'easeIn'
+                }}
+                >
+                <h2 className='text-lg md:text-xl mt-4 text-white'>What can I fundraise for?</h2>
+                <p className='max-md:text-sm mt-4 mb-4 text-[#8A8A8A]'>Find answers to your most common questions about setting up and managing your fundraising campaigns. 
+                We&apos;re here to make the process simple, secure, and transparent every step of the way.
+                </p>
+            </motion.div>
+
+              </CarouselItem>
+
+              <CarouselItem>
+              <motion.div
+                initial={{
+                  opacity:0
+                }}
+                animate={{
+                  opacity:inView ? 1 :0
+                }}
+                transition={{
+                  delay:2,
+                  duration:0.8,
+                  ease:'easeIn'
+                }}
+                >
+                <h2 className='text-lg md:text-xl mt-4 text-white'>Is my donation secure?</h2>
+                <p className='max-md:text-sm mt-4 mb-4 text-[#8A8A8A]'>Yes! We use blockchain technology to ensure that every donation is secure, transparent, 
+                and tracked. You can see exactly where your funds go, making the process fully trustworthy.
+                </p>
+            </motion.div>
+              </CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious />
+      <CarouselNext />
+        </Carousel>
+            
+        {/* Laptop */}
+        <Carousel className="hidden md:flex w-full">
         <CarouselContent className='w-full'>
         <CarouselItem className='flex w-full flex-col md:flex-row  gap-10 p-4'>
             <motion.div
