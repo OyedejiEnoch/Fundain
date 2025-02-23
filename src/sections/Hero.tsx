@@ -57,7 +57,7 @@ const Hero = () => {
                 duration:1,
                 ease:'easeInOut'
             }}
-            className='text-center text-4xl md:text-5xl lg:text-6xl font-medium bg-gradient-to-r from-[#797878] via-[#ffffff] to-[#aba9a9] bg-clip-text text-transparent '>Raise Funds, Build Dreams, With Complete Transparency</motion.h2>
+            className='text-center text-[40px] leading-[44px] md:text-5xl lg:text-6xl font-medium bg-gradient-to-r from-[#797878] via-[#ffffff] to-[#aba9a9] bg-clip-text text-transparent '>Raise Funds, Build Dreams, With Complete Transparency</motion.h2>
 
             <motion.p 
             initial={{
