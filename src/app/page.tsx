@@ -19,3 +19,5 @@ export default function Home() {
     </>
   );
 }
+
+// @mui/x-data-grid @mui/material @emotion/react @emotion/styled lucide-react numeral recharts uuidaxios 

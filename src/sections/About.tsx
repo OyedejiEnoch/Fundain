@@ -99,7 +99,7 @@ const About = () => {
                     </div>
 
                     <div className='mt-6'>
-                        <Image src={aboutImg1} alt='image' className='rounded-lg' />
+                        <Image src={aboutImg1} alt='image' className=' rounded-b-md' />
                     </div>
                 </div>
             </motion.div>
