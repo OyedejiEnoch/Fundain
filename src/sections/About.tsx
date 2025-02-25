@@ -87,7 +87,7 @@ const About = () => {
                 duration:0.6,
                 ease:'easeIn'
             }}
-            className='col-span-12 border border-white/40 rounded-xl pt-12 '>
+            className='col-span-12 border border-white/40 rounded-2xl pt-12 '>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
                     <div className='px-4 md:px-10'>
                         <h2 className='text-3xl text-white'>Transparent Fundraising</h2>
@@ -99,7 +99,7 @@ const About = () => {
                     </div>
 
                     <div className='mt-6'>
-                        <Image src={aboutImg1} alt='image' className=' rounded-b-md' />
+                        <Image src={aboutImg1} alt='image' className=' rounded-b-xl' />
                     </div>
                 </div>
             </motion.div>
@@ -123,7 +123,7 @@ const About = () => {
                     <p className='text-center mt-4 text-sm text-[#8A8A8A] max-w-[300px] md:max-w-[400px] mx-auto'>Smart contracts automate payouts, ensuring secure and fair fund handling.</p>
                     
                     <div className='mt-12'>
-                    <Image src={aboutImg2} alt='image' />
+                    <Image src={aboutImg2} alt='image' className='rounded-b-md' />
                     </div>
                 </motion.div>
 
@@ -144,7 +144,7 @@ const About = () => {
                     <p className='text-center mt-4 text-sm text-[#8A8A8A] max-w-[300px] md:max-w-[400px] mx-auto'>Raise funds from anyone, anywhere in the world. No borders. No restrictions.</p>
                     
                     <div className='mt-12'>
-                    <Image src={aboutImg3} alt='image' />
+                    <Image src={aboutImg3} alt='image' className='rounded-b-md' />
                     </div>
                 </motion.div>
          </div>

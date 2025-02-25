@@ -7,6 +7,7 @@ import Image from 'next/image'
 import featureIcon1 from '@/assets/iconFeature1.svg'
 import featureIcon2 from '@/assets/iconFeature2.svg'
 import featureIcon4 from '@/assets/iconFeature4.svg'
+import featureIcon3 from '@/assets/iconFeature6.svg'
 import { useAnimate, useInView, motion } from 'motion/react'
 import { stagger } from 'motion'
 import SplitType from 'split-type'
@@ -184,7 +185,7 @@ const Features = () => {
                     ease:'easeIn'
                 }}
             >
-                <Image src={featureIcon4} alt='' width={30} />
+                <Image src={featureIcon3} alt='' width={30} />
                 <h2 className='text-lg md:text-xl mt-4 text-white'>Collect Contributions</h2>
                 <p className='max-md:text-sm mt-4 text-[#8A8A8A]'>Receive donations directly to your account using blockchain technology.
                 </p>
